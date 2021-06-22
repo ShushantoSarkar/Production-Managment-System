@@ -1,0 +1,202 @@
+*,::after ,::before {
+    box-sizing: border-box;
+}
+
+li:hover{
+    background: rgba(0, 0, 0, 0.24);
+}
+
+.bar_graph h1{
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
+    color: purple;
+}
+
+.body_row{
+    height: 100%;
+      position: absolute;
+      width: 100%;
+      overflow: scroll;
+      font-family: Roboto,sans-serif;
+  }
+
+
+li{
+    list-style: none;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu_item{
+    font-size: 2rem;
+    margin-left: -25%;
+    margin-right: -30%;
+    padding-right: 25%;
+    text-align: left;
+}
+
+.bi{
+  margin-right: 10px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.bar_graph{
+        width: 100%;
+        
+}
+
+.graph_column{
+    background-color: #f9f9f9;
+    margin-top: 50px;
+}
+.sidebar_column{
+    background-color: rgb(49, 49, 49);height: 100%;
+}
+.notification_column{
+    background-color: rgba(49,49,49,0.89);
+}
+
+.filter_text{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 3px;
+    
+}
+.filter_text:hover{
+    color: white;
+}
+.calender{
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+   
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.date_range {
+    float: right;
+    margin: 0 10px;
+    width: fit-content;
+    /*display: none;*/
+}
+.cal{
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.notification_heading{
+    padding: 4px;
+    margin-left: -5%;
+    background:rgb(49, 49, 49);
+    box-shadow: rgb(0 0 0 / 35%) 0px 1px 2px;
+    /*padding-bottom: 20px;*/
+    padding-top: 14px;
+    text-align: left;
+    color: white;
+    margin-right: -15%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 55px;
+}
+
+.company_name{
+    padding: 4px;
+    margin-right: -5%;
+    background: rgba(0, 0, 0, 0.24);
+    box-shadow: rgb(0 0 0 / 35%) 0px 1px 2px;
+    /*padding-bottom: 20px;*/
+    padding-top: 20px;
+    text-align: left;
+    color: white;
+}
+
+
+.colu_2 h3{
+    margin: 15px;
+}
+
+.bar_graph{
+    width: 100%;
+}
+
+.notification_title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.notification_content{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+
+.top_bar{
+    padding: 30px;
+    background-color: rgb(90, 111, 196);
+    margin-right: -10%;
+    margin-left: -10%;
+}
+
+
+
+
+.show{display: block;}
+.hide{display: none;}
+
+.filter{
+    float: left;
+    margin-left: 10px;
+}
+
+.graph_text{
+    margin-top: -0.2%;
+    float: left;
+}
+
+
+.dropdown{
+    color: white;
+}
+  
+
+  .drop{
+      display: none;
+  }
+
+  .drop-show{
+      display: block;
+  }
+  .dropdown button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+       
+  }
+  .dropdown button:focus{
+    outline: none;
+  }
+
+  .material-icons{
+     float: right;
+     padding-top: 12px;
+  }
+
+ 

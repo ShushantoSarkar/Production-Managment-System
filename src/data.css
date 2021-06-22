@@ -1,0 +1,95 @@
+*,::after ,::before {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(240, 237, 237);
+}
+
+.form_col{
+    background-color: #fff;
+    margin-top: 25px;
+    
+}
+.form_col .form{
+    font-size: 1.2em;
+}
+.ca{
+    background-color: white;
+    color: black;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(0);
+}
+.form_col .form {
+    padding: 30px;
+    margin: 0 auto;
+    color: black;
+}
+
+.form_col .divison+.divison{
+    margin-top:20px;
+}
+
+.form_col .shift select{
+    width:100%;
+}
+
+.form_col .loomNumber input{
+    width:100%;
+}
+
+.form_col .peakValue input{
+    width:100%;
+}
+
+.form_col .closingReading input{
+    width:100%;
+
+}
+
+.form_col .rpm input{
+    width:100%;
+}
+
+.form_col .submit{
+}
+
+.form_col .submit input{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(90, 111, 196);
+    border: none;
+}
+.form_col label{
+    font-size: 1.5em
+}
+
+@media screen and (max-width:300px)
+{
+    body{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .form_col .shift input{
+    }
+    
+    .form_col .loomNumber input{
+    }
+
+    .form_col .peakValue input{
+    }
+
+    .form_col .closingReading{
+        font-size: 20px;
+    }
+
+    .form_col .closingReading input{
+    }
+
+    .form_col .rpm input{
+    }
+
+
+}
